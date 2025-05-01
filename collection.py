@@ -16,5 +16,5 @@ authrs = {
     "Gerard Manley Hopkins": "1889"
 
 for author date in authors.items{}:
-    print "%s" % authors + " died in " + "%d." % Date
+    print(f"{author} died in {date}.") 
 }
